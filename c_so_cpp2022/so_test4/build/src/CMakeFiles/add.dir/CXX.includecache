@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/add.h
+
+/tensorflow_cc/cpp2022/so_test4/src/add.cc
+add.h
+/tensorflow_cc/cpp2022/so_test4/src/add.h
+

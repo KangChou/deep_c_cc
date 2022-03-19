@@ -1,0 +1,1 @@
+gcc -shared -o libadd.so add.c && gcc -o main main.c -ldl && ./main

@@ -1,0 +1,6 @@
+/tensorflow_cc/cpp2022/so_test4/build/CMakeFiles/rebuild_cache.dir
+/tensorflow_cc/cpp2022/so_test4/build/CMakeFiles/DLDEMO.dir
+/tensorflow_cc/cpp2022/so_test4/build/CMakeFiles/edit_cache.dir
+/tensorflow_cc/cpp2022/so_test4/build/src/CMakeFiles/rebuild_cache.dir
+/tensorflow_cc/cpp2022/so_test4/build/src/CMakeFiles/add.dir
+/tensorflow_cc/cpp2022/so_test4/build/src/CMakeFiles/edit_cache.dir
