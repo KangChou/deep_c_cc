@@ -21,6 +21,7 @@ cv2.waitKey()
 # apt-get update
 #apt-get install ffmpeg libsm6 libxext6  -y
 #apt-get update && apt-get install -y opencv-python-headless
+# pip install opencv-python==4.3.0.38  #报错 的时候可能cv版本过高，需要降低一下
 #pip install opencv-python-headless -i https://pypi.doubanio.com/simple/  --trusted-host pypi.doubanio.com
 #apt-get update && apt-get install libgl1
 # apt-get install python3-tk
