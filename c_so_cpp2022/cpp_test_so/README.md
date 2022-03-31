@@ -36,3 +36,10 @@ cv2.waitKey()
 # apt-get install -y ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy
 #apt-get install tcl-dev tk-dev python-tk python3-tk
 ```
+其他：
+```
+sudo apt-get install build-essential libgl1-mesa-dev
+sudo apt-get install libfontconfig1-dev libfreetype6-dev libx11-dev libxext-dev libxfixes-dev libxi-dev libxrender-dev libxcb1-dev libx11-xcb-dev libxcb-glx0-dev
+sudo apt-get install libxcb-keysyms1-dev libxcb-image0-dev libxcb-shm0-dev libxcb-icccm4-dev libxcb-sync0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-randr0-dev libxcb-render-util0-dev
+```
+
