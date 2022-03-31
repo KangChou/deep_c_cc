@@ -19,6 +19,8 @@ cv2.waitKey()
 # export QT_DEBUG_PLUGINS=1  # 打印过程
 # apt-get install libxcb-xinerama0
 # apt-get update
+#apt-get install libx11-dev libxext-dev libxtst-dev
+#apt-get install xlibmesa-gl-dev libglu1-mesa-dev
 #apt-get install ffmpeg libsm6 libxext6  -y
 #apt-get update && apt-get install -y opencv-python-headless
 # pip install opencv-python==4.3.0.38  #报错 的时候可能cv版本过高，需要降低一下
