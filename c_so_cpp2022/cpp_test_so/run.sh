@@ -1,6 +1,6 @@
 # windows环境docker pull continuumio/anaconda3
 # 记得安装vs code 和wsl进行穿透
-# docker  Windows可视化  https://blog.csdn.net/qq_42693848/article/details/108780048
+# docker  Windows 数据  python可视化  https://blog.csdn.net/qq_42693848/article/details/108780048
 # g++ -v
 # g++ --help
 g++ hello.cpp
