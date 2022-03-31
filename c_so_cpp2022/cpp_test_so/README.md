@@ -1,3 +1,5 @@
+docker run -it python:3.9-slim bash -c "pip -q install opencv-python; python -c 'import cv2'"
+```
 import numpy as np
 import cv2
 
@@ -14,3 +16,4 @@ cv2.waitKey()
 #apt-get update && apt-get install -y opencv-python-headless
 #pip install opencv-python-headless
 #apt-get update && apt-get install libgl1
+```
