@@ -1,6 +1,6 @@
-# windows环境docker pull continuumio/anaconda3
-# 记得安装vs code 和wsl进行穿透
-# docker  Windows 数据  python可视化  https://blog.csdn.net/qq_42693848/article/details/108780048
+windows环境docker pull continuumio/anaconda3
+记得安装vs code 和wsl进行穿透
+docker  Windows 数据  python可视化  https://blog.csdn.net/qq_42693848/article/details/108780048
 docker run -it python:3.9-slim bash -c "pip -q install opencv-python; python -c 'import cv2'"
 ```cpp
 import numpy as np
@@ -14,11 +14,18 @@ cv2.line(img,(0,0),(511,511),(255,0,0),5)
 cv2.imshow('line',img)
 cv2.waitKey()   
 
-#apt-get update
+# export DISPLAY=host.docker.internal:0
+# apt-get update
 #apt-get install ffmpeg libsm6 libxext6  -y
 #apt-get update && apt-get install -y opencv-python-headless
-#pip install opencv-python-headless
+#pip install opencv-python-headless -i https://pypi.doubanio.com/simple/  --trusted-host pypi.doubanio.com
 #apt-get update && apt-get install libgl1
 # apt-get install python3-tk
 # apt install cmake make libgtk2.0-dev pkg-config
+# apt-get install libxkbcommon-x11-0
+# apt-get update
+# apt-get install -y locales
+# apt-get install locale-gen zh_CN
+# apt-get install locale-gen zh_CN.utf8
+# apt-get install -y ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy
 ```
