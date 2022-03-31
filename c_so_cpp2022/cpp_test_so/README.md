@@ -1,3 +1,6 @@
+# windows环境docker pull continuumio/anaconda3
+# 记得安装vs code 和wsl进行穿透
+# docker  Windows 数据  python可视化  https://blog.csdn.net/qq_42693848/article/details/108780048
 docker run -it python:3.9-slim bash -c "pip -q install opencv-python; python -c 'import cv2'"
 ```cpp
 import numpy as np
@@ -16,4 +19,6 @@ cv2.waitKey()
 #apt-get update && apt-get install -y opencv-python-headless
 #pip install opencv-python-headless
 #apt-get update && apt-get install libgl1
+# apt-get install python3-tk
+# apt install cmake make libgtk2.0-dev pkg-config
 ```
