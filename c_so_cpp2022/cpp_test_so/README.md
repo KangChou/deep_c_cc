@@ -15,6 +15,7 @@ cv2.imshow('line',img)
 cv2.waitKey()   
 
 # export DISPLAY=host.docker.internal:0
+# export DISPLAY=10.53.132.251:0.0
 # apt-get update
 #apt-get install ffmpeg libsm6 libxext6  -y
 #apt-get update && apt-get install -y opencv-python-headless
@@ -28,4 +29,5 @@ cv2.waitKey()
 # apt-get install locale-gen zh_CN
 # apt-get install locale-gen zh_CN.utf8
 # apt-get install -y ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy
+#apt-get install tcl-dev tk-dev python-tk python3-tk
 ```
