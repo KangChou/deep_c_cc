@@ -4,3 +4,7 @@ g++ mainA.cpp A.cpp -I./
 ./a.out
 cd ../
 
+
+
+
+#参考：https://blog.csdn.net/hl_java/article/details/90766721
