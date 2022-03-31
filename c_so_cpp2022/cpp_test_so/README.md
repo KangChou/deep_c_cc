@@ -16,6 +16,8 @@ cv2.waitKey()
 
 # export DISPLAY=host.docker.internal:0
 # export DISPLAY=10.53.132.251:0.0
+# export QT_DEBUG_PLUGINS=1  # 打印过程
+# apt-get install libxcb-xinerama0
 # apt-get update
 #apt-get install ffmpeg libsm6 libxext6  -y
 #apt-get update && apt-get install -y opencv-python-headless
