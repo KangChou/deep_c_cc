@@ -42,4 +42,12 @@ sudo apt-get install build-essential libgl1-mesa-dev
 sudo apt-get install libfontconfig1-dev libfreetype6-dev libx11-dev libxext-dev libxfixes-dev libxi-dev libxrender-dev libxcb1-dev libx11-xcb-dev libxcb-glx0-dev
 sudo apt-get install libxcb-keysyms1-dev libxcb-image0-dev libxcb-shm0-dev libxcb-icccm4-dev libxcb-sync0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-randr0-dev libxcb-render-util0-dev
 ```
+实现步骤：
+1、先打开vcX
+2、整体在window进入docker容器环境之后
+3、输入export DISPLAY=host.docker.internal:0
+4、执行上述代码所在位置python cv.py 
+
+![image](https://user-images.githubusercontent.com/36963108/160973505-807b300f-0473-4654-9b99-63fdd1b7ab9a.png)
+
 
