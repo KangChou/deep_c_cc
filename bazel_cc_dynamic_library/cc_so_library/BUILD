@@ -1,5 +1,5 @@
 cc_binary(
-        name="dllfunc-0.0.1.so",
+        name="libfunc.so",
         srcs=["dllfunc.h","dllfunc.cc"],
         linkshared=True,
         )
