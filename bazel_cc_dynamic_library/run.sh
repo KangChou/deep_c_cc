@@ -1,15 +1,21 @@
 bazel build //cc_a_library:static
 
 bazel build //cc_so_library:libfunc.so
+# 
+chmod 777 -R bazel-*
 
-cd cc_a_library
-mv libstatic.a ../call_so_a_library
-cp static.h ../call_so_a_library
+cd bazel-out/k8-fastbuild/bin/cc_a_library
+cd ../../../../
+cp bazel-out/k8-fastbuild/bin/cc_a_library/libstatic.a call_so_a_library
+cp cc_a_library/static.h call_so_a_library
 
-cd ../
-cd cc_so_library
-mv libfunc.so ../call_so_a_library
-cp dllfunc.h ../call_so_a_library
+pwd
 
-cd ../
+cd bazel-out/k8-fastbuild/bin/cc_so_library
+cd ../../../../
+cp bazel-out/k8-fastbuild/bin/cc_so_library/libfunc.so call_so_a_library
+cp cc_so_library/dllfunc.h call_so_a_library
+
+
 bazel build //call_so_a_library:dll_test
+bazel run //call_so_a_library:dll_test
