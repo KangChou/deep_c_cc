@@ -19,3 +19,8 @@ cp cc_so_library/dllfunc.h call_so_a_library
 
 bazel build //call_so_a_library:dll_test
 bazel run //call_so_a_library:dll_test
+
+
+rm -rf bazel-*
+rm call_so_a_library/libfunc.so
+rm call_so_a_library/libstatic.a
